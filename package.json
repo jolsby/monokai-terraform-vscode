@@ -1,21 +1,32 @@
 {
-    "name": "monokai-tf-3",
-    "displayName": "Monokai TF 3",
-    "description": "Third times the charm",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.66.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "monokai-tf-3",
-                "uiTheme": "vs-dark",
-                "path": "./themes/monokai-tf-3-color-theme.json"
-            }
-        ]
-    }
+"name": "monokai-terraform-theme",
+"displayName": "Monokai Terraform Theme",
+"description": "A theme improving upon the readability of the native Monokai theme for .tf files.",
+"publisher": "Jake Olsby",
+"author": {
+    "name": "Jake Olsby"
+},
+"version": "0.0.1",
+"engines": {
+    "vscode": "^1.66.2"
+},
+"repository": {
+    "type":"git",
+    "url":"https://github.com/jolsby/monokai-terraform-vscode"
+},
+"categories": [
+    "Themes"
+]
+,"keywords": [
+    "Terraform","Monokai","Theme", ".tf", "Formatting", "Dark Theme"
+],
+"contributes": {
+    "themes": [
+        {
+        "label":"Monokai Terraform Theme",
+        "ioTheme":"monokai-terraform",
+        "path":"./themes/monokai-terraform.json",
+        }
+    ]
+
 }
