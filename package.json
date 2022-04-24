@@ -2,7 +2,7 @@
 	"name": "monokai-terraform-theme",
 	"displayName": "Monokai Terraform Theme",
 	"description": "A theme improving upon the readability of the native Monokai theme for .tf files.",
-	"publisher": "Jake Olsby",
+	"publisher": "vscode-jolsby",
 	"author": {
 		"name": "Jake Olsby"
 	},
