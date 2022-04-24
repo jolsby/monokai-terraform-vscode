@@ -1,32 +1,31 @@
 {
-"name": "monokai-terraform-theme",
-"displayName": "Monokai Terraform Theme",
-"description": "A theme improving upon the readability of the native Monokai theme for .tf files.",
-"publisher": "Jake Olsby",
-"author": {
-    "name": "Jake Olsby"
-},
-"version": "0.0.1",
-"engines": {
-    "vscode": "^1.66.2"
-},
-"repository": {
-    "type":"git",
-    "url":"https://github.com/jolsby/monokai-terraform-vscode"
-},
-"categories": [
-    "Themes"
-]
-,"keywords": [
-    "Terraform","Monokai","Theme", ".tf", "Formatting", "Dark Theme"
-],
-"contributes": {
-    "themes": [
-        {
-        "label":"Monokai Terraform Theme",
-        "ioTheme":"monokai-terraform",
-        "path":"./themes/monokai-terraform.json",
-        }
-    ]
+	"name": "monokai-terraform-theme",
+	"displayName": "Monokai Terraform Theme",
+	"description": "A theme improving upon the readability of the native Monokai theme for .tf files.",
+	"publisher": "Jake Olsby",
+	"author": {
+		"name": "Jake Olsby"
+	},
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.66.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jolsby/monokai-terraform-vscode"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"Terraform", "Monokai", "Theme", ".tf", "Formatting", "Dark Theme"
+	],
+	"contributes": {
+		"themes": [{
+			"label": "Monokai Terraform Theme",
+			"ioTheme": "monokai-terraform",
+			"path": "./themes/monokai-terraform.json"
+		}]
 
+	}
 }

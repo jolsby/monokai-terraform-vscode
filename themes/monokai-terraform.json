@@ -1,24 +1,19 @@
 {
-	"name": "monokai-terraform-theme",
-	"displayName": "monokai-terraform-theme",
-	"description": "A theme improving upon the readability of the native Monokai theme for .tf files.",
-	"publisher": "Jake Olsby",
-	"author": {
-		"name": "Jake Olsby"
-	},
-	"version": "0.0.1",
-	"engines": {
-		"vscode": "^1.66.2"
-	},
-	"repository": {
-		"type":"git",
-		"url":"https://github.com/jolsby/monokai-terraform-vscode"
-	}
+
 	"colors": {
 		"editor.background": "#272822",
 		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"activityBarBadge.background": "#272822",
+		"sideBarTitle.foreground": "#bbbbbb",
+		"sideBar.background":"#1E1F1C",
+		"activityBar.background": "#272822",
+		"activityBar.foreground": "#7A7B75",
+		"editorGroupHeader.tabsBorder":"#34352F",
+		"tab.unfocusedActiveBackground": "#34352F",
+		"sideBarSectionHeader.foreground": "#C1CCCC",
+		"sideBarSectionHeader.background": "#272822",
+		"statusBar.background": "#75715E",
+		"menubar.selectionForeground": "#202120"
 	},
 	"tokenColors": [
 		{
@@ -122,7 +117,7 @@
 		{
 			"name": "TF Entity Type",
 			"scope": [
-				"support.function.builtin.terraform",
+				"support.function.builtin.terraform"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -132,7 +127,7 @@
 		{
 			"name": "TF Entity Type",
 			"scope": [
-				"variable.other.property.terraform",
+				"variable.other.property.terraform"
 			],
 			"settings": {
 				"foreground": "#F8F8F2"
@@ -197,7 +192,7 @@
 			"name": "TF Entity Type",
 			"scope": [
 				"keyword.operator.assignment.hcl",
-				"constant.language.hcl",
+				"constant.language.hcl"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -218,7 +213,7 @@
 		{
 			"name": "TF Entity Type",
 			"scope": [
-				"storage.type.hcl",
+				"storage.type.hcl"
 				
 			],
 			"settings": {
@@ -229,14 +224,14 @@
 		{
 			"name": "TF Entity Type",
 			"scope": [
-				"constant.numeric.integer.hcl",
+				"constant.numeric.integer.hcl"
 				
 			],
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#AE81FF"
 			}
-		},
+		}
 
 
 		
