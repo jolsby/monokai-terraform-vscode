@@ -1,0 +1,21 @@
+{
+    "name": "monokai-tf-3",
+    "displayName": "Monokai TF 3",
+    "description": "Third times the charm",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "monokai-tf-3",
+                "uiTheme": "vs-dark",
+                "path": "./themes/monokai-tf-3-color-theme.json"
+            }
+        ]
+    }
+}

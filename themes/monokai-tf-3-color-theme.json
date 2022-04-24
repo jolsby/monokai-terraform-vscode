@@ -1,0 +1,241 @@
+{
+	"name": "monokai-terraform-theme",
+	"displayName": "monokai-terraform-theme",
+	"description": "A theme improving upon the readability of the native Monokai theme for .tf files.",
+	"publisher": "Jake Olsby",
+	"author": {
+		"name": "Jake Olsby"
+	},
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.66.2"
+	},
+	
+	"colors": {
+		"editor.background": "#272822",
+		"editor.foreground": "#eeffff",
+		"activityBarBadge.background": "#007acc",
+		"sideBarTitle.foreground": "#bbbbbb"
+	},
+	"tokenColors": [
+		{
+			"name": "TF Entity Name",
+			"scope": [
+				"entity.name.type.terraform"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#A6E22E"
+			}
+		},
+		{
+			"name": "TF Entity Name",
+			"scope": [
+				"variable.other.enummember.hcl"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#F8F8F2"
+			}
+		},
+		{
+			"name": "TF Entity Quote Start",
+			"scope": [
+				"punctuation.definition.string.begin.terraform"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#E6DB74"
+			}
+		},
+		{
+			"name": "TF Entity Quote End",
+			"scope": [
+				"string.quoted.double.hcl"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#E6DB74"
+			}
+		},
+		{
+			"name": "TF Entity Quote Double",
+			"scope": [
+				"string.quoted.double.terraform"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#E6DB74"
+			}
+		},
+	
+		{
+			"name": "TF Entity Type",
+			"scope": [
+				"variable.other.property.terraform"
+			],
+			"settings": {
+				"foreground": "#F8F8F2"
+			}
+		},
+		{
+			"name": "TF Entity Type",
+			"scope": [
+				"variable.other.member.terraform"
+			],
+			"settings": {
+				"foreground": "#F8F8F2"
+			}
+		}, 
+		{
+			"name": "TF Entity Type",
+			"scope": [
+				"punctuation.section.parens.end.terraform",
+				"punctuation.section.parens.begin.terraform",
+				"punctuation.section.braces.begin.terraform",
+				"punctuation.section.braces.end.terraform",
+				"punctuation.section.block.begin.terraform",
+				"punctuation.section.block.end.terraform",
+				"punctuation.section.brackets.end.terraform",
+				"punctuation.section.brackets.begin.terraform",
+				"punctuation.separator.terraform",
+				"meta.interpolation.hcl",
+				"variable.other.member.hcl",
+				"punctuation.section.block.begin.hcl",
+				"punctuation.section.block.end.hcl",
+				"variable.declaration.hcl",
+				"meta.braces.hcl",
+				"punctuation.section.parens.end.hcl",
+				"punctuation.section.parens.end.hcl",
+				"punctuation.section.parens.begin.hcl",
+				"punctuation.section.brackets.end.hcl",
+				"punctuation.section.brackets.begin.hcl"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#E6E6E6"
+			}
+		},
+		{
+			"name": "TF Entity Type",
+			"scope": [
+				"support.function.builtin.terraform",
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#66D9EF"
+			}
+		}, 
+		{
+			"name": "TF Entity Type",
+			"scope": [
+				"variable.other.property.terraform",
+			],
+			"settings": {
+				"foreground": "#F8F8F2"
+			}
+		},
+		{
+			"name": "TF Entity Type",
+			"scope": [
+				"keyword.operator.accessor.terraform",
+				"keyword.operator.accessor.hcl"
+			],
+			"settings": {
+				"foreground": "#B080B1"
+			}
+		},
+		{
+			"name": "TF Entity Type",
+			"scope": [
+				"variable.other.readwrite.terraform",
+				"meta.block.hcl",
+				"keyword.other.interpolation.begin.hcl",
+				"keyword.other.interpolation.end.hcl"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#A1EFE4" 
+			}
+		},
+		{
+			"name": "TF Entity Type",
+			"scope": [
+				"punctuation.definition.comment.terraform",
+				"comment.line.terraform",
+				"punctuation.definition.comment.hcl",
+				"comment.line.number-sign.hcl"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#75715E"
+			}
+		},
+		{
+			"name": "TF Entity Type",
+			"scope": [
+				"scope.terraform"
+			],
+			"settings": {
+				"foreground": "#FD5FF0"
+			}
+		}, 
+		{
+			"name": "TF Entity Type",
+			"scope": [
+				"meta.mapping.key.hcl"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#FD971F"
+			}
+		},
+		{
+			"name": "TF Entity Type",
+			"scope": [
+				"keyword.operator.assignment.hcl",
+				"constant.language.hcl",
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#F92672"
+			}
+		},
+		{
+			"name": "TF Entity Type",
+			"scope": [
+				"keyword.other.interpolation.begin.hcl",
+				"keyword.other.interpolation.end.hcl"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#A1EFE4"
+			}
+		},
+		{
+			"name": "TF Entity Type",
+			"scope": [
+				"storage.type.hcl",
+				
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#F92672"
+			}
+		},
+		{
+			"name": "TF Entity Type",
+			"scope": [
+				"constant.numeric.integer.hcl",
+				
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#AE81FF"
+			}
+		},
+
+
+		
+	]
+}
