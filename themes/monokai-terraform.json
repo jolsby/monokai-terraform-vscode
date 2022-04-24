@@ -39,7 +39,8 @@
 		{
 			"name": "TF Entity Quote Start",
 			"scope": [
-				"punctuation.definition.string.begin.terraform"
+				"punctuation.definition.string.begin.terraform",
+				"string.unquoted.heredoc.hcl"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -97,17 +98,13 @@
 				"punctuation.section.brackets.end.terraform",
 				"punctuation.section.brackets.begin.terraform",
 				"punctuation.separator.terraform",
-				"meta.interpolation.hcl",
 				"variable.other.member.hcl",
+				"variable.other.readwrite.hcl",
 				"punctuation.section.block.begin.hcl",
 				"punctuation.section.block.end.hcl",
 				"variable.declaration.hcl",
 				"meta.braces.hcl",
-				"punctuation.section.parens.end.hcl",
-				"punctuation.section.parens.end.hcl",
-				"punctuation.section.parens.begin.hcl",
-				"punctuation.section.brackets.end.hcl",
-				"punctuation.section.brackets.begin.hcl"
+				"punctuation.separator.hcl"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -117,10 +114,25 @@
 		{
 			"name": "TF Entity Type",
 			"scope": [
-				"support.function.builtin.terraform"
+				"punctuation.section.parens.end.hcl",
+				"punctuation.section.parens.begin.hcl",
+				"punctuation.section.brackets.end.hcl",
+				"punctuation.section.brackets.begin.hcl",
+				"punctuation.section.braces.begin.hcl",
+				"punctuation.section.braces.end.hcl"
 			],
 			"settings": {
 				"fontStyle": "",
+				"foreground": "#b8b6b6"
+			}
+		},
+		{
+			"name": "TF Entity Type",
+			"scope": [
+				"support.function.builtin.terraform"
+			],
+			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#66D9EF"
 			}
 		}, 
@@ -149,7 +161,8 @@
 				"variable.other.readwrite.terraform",
 				"meta.block.hcl",
 				"keyword.other.interpolation.begin.hcl",
-				"keyword.other.interpolation.end.hcl"
+				"keyword.other.interpolation.end.hcl",
+				"meta.function-call.hcl"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -162,7 +175,8 @@
 				"punctuation.definition.comment.terraform",
 				"comment.line.terraform",
 				"punctuation.definition.comment.hcl",
-				"comment.line.number-sign.hcl"
+				"comment.line.number-sign.hcl",
+				"comment.block.hcl"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -172,7 +186,8 @@
 		{
 			"name": "TF Entity Type",
 			"scope": [
-				"scope.terraform"
+				"scope.terraform",
+				"storage.type.function.hcl"
 			],
 			"settings": {
 				"foreground": "#FD5FF0"
@@ -192,7 +207,12 @@
 			"name": "TF Entity Type",
 			"scope": [
 				"keyword.operator.assignment.hcl",
-				"constant.language.hcl"
+				"keyword.control.hcl",
+				"keyword.operator.word.hcl",
+				"keyword.operator.hcl",
+				"keyword.control.heredoc.hcl",
+				"keyword.operator.heredoc.hcl",
+				"keyword.operator.arithmetic.hcl"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -213,6 +233,16 @@
 		{
 			"name": "TF Entity Type",
 			"scope": [
+				"entity.name.type.hcl"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#A3EAA2"
+			}
+		},
+		{
+			"name": "TF Entity Type",
+			"scope": [
 				"storage.type.hcl"
 				
 			],
@@ -224,7 +254,8 @@
 		{
 			"name": "TF Entity Type",
 			"scope": [
-				"constant.numeric.integer.hcl"
+				"constant.numeric.integer.hcl",
+				"constant.language.hcl"
 				
 			],
 			"settings": {
